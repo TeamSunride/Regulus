@@ -1,0 +1,298 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "4c03518e-f53b-43e7-b561-455b15aa221e")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 156.21 57.15) (xy 170.18 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6059fb38-cc8b-4eb5-861e-3ebf7975afe0")
+	)
+	(wire
+		(pts
+			(xy 156.21 54.61) (xy 170.18 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6e66c6c-19a4-4ad6-b290-6c0711697a5d")
+	)
+	(wire
+		(pts
+			(xy 156.21 59.69) (xy 170.18 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5f4bd2f-766e-4edb-8923-6691cc042f4c")
+	)
+	(sheet
+		(at 118.11 92.71)
+		(size 38.1 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7dd0ca94-7cc8-4b07-9f31-bdbc445ed0be")
+		(property "Sheetname" "Peripherals"
+			(at 118.11 91.9984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "peripherals.kicad_sch"
+			(at 118.11 121.2346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "gregulator"
+				(path "/4c03518e-f53b-43e7-b561-455b15aa221e"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 60.96 48.26)
+		(size 38.1 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8bdc6678-8b80-42dc-b12e-7ae8ce5721b3")
+		(property "Sheetname" "Power"
+			(at 60.96 47.5484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 60.96 76.7846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "gregulator"
+				(path "/4c03518e-f53b-43e7-b561-455b15aa221e"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 118.11 48.26)
+		(size 38.1 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ea6ce3e9-ba13-4f32-9912-3fd748c7fe56")
+		(property "Sheetname" "MCU"
+			(at 118.11 47.5484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 118.11 76.7846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SWCLK" output
+			(at 156.21 54.61 0)
+			(uuid "0541f82c-6ef1-4ec6-b8cf-661c718a6d4b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SWDIO" output
+			(at 156.21 57.15 0)
+			(uuid "b3d89ce0-7068-49e1-bafb-f64a1bf28e06")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SWO" output
+			(at 156.21 59.69 0)
+			(uuid "0c936a6c-a161-40b6-9f75-89d589fcb9de")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NRST" input
+			(at 156.21 62.23 0)
+			(uuid "af9f1ae8-5815-435c-b425-3794c1577176")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "gregulator"
+				(path "/4c03518e-f53b-43e7-b561-455b15aa221e"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 170.18 46.99)
+		(size 38.1 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ef610d94-1635-453b-9817-002a876c691a")
+		(property "Sheetname" "Connectors"
+			(at 170.18 46.2784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connectors.kicad_sch"
+			(at 170.18 75.5146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SWCLK" input
+			(at 170.18 54.61 180)
+			(uuid "34e82ab8-9d5b-4dda-b2ad-db07c80cd83e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWDIO" input
+			(at 170.18 57.15 180)
+			(uuid "ba2fee12-885d-4fe0-935c-f8fac138255b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWO" input
+			(at 170.18 59.69 180)
+			(uuid "826c6f4b-e476-4258-b1d6-08f4f226cc94")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "gregulator"
+				(path "/4c03518e-f53b-43e7-b561-455b15aa221e"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
